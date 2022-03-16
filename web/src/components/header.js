@@ -5,11 +5,12 @@ import { cn } from "../lib/helpers";
 
 import * as styles from "./header.module.css";
 
-import hero from './hero';
+
 
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
-<>
-  <hero />
+
+
+
   <div className={styles.root}>
     <div className={styles.wrapper}>
       <div className={styles.branding}>
@@ -31,7 +32,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   </div>
 
 
-</>
+
 
 );
 
